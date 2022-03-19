@@ -1,5 +1,5 @@
 const mongoose = require ('mongoose');
-mongoose.connect('mongodb+srv://rootdb:rootdb@cluster0.mjjgo.mongodb.net/restAPI?retryWrites=true&w=majority').
+mongoose.connect('mongodb+srv://rootdb:rootdb@cluster0.o7gzf.mongodb.net/restapitest?retryWrites=true&w=majority').
 then((result)=>{
     console.log('Establish connection with e-commerce database');
 }).catch((error)=>{
